@@ -1,0 +1,86 @@
+body {
+    /* background: linear-gradient(to bottom right, #ffcccc, #ff99cc, #ff6699); */
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+
+.box {
+    margin-top: 100px;
+    background-color: #fffefe;
+    color: #000000;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Change to flex-start */
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.box .title {
+    font-size: 30px;
+    text-align: left; /* Add text-align: left */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-20 {
+    font-size: 30px;
+}
+
+.black-color {
+    color: #000;
+}
+
+.center-block {
+    margin: 0 auto;
+    display: block;
+}
+
+input {
+    background-color: #fffcfc;
+    color: #fff;
+    transition-duration: 1s;
+}
+
+input:hover {
+    background-color: #f00;
+    input {
+        background-color: #fff;
+        color: #fff;
+    }
+
+    input:hover {
+        background-color: rgb(108, 102, 102);
+    }
+
+    input[type="text"] {
+        color: #fff; /* Set text color to white */
+    }
+}
+
+
+.input-container {
+    width: 100%; /* Adjust as needed */
+    text-align: left;
+    margin-left: 80px;
+
+}
+
+.input-container input[type="text"] {
+    width: 80%; /* Adjust as needed */
+    /* Rest of your styles */
+}
+
+.header{
+    text-align: center;
+    background-color: beige;
+    padding: 15px;
+    
+    width: 100%; /* Add this line to make the background color go to the sides */
+}
